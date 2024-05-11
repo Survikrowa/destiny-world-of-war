@@ -1,5 +1,7 @@
-[gd_scene format=3 uid="uid://cioo0w00fv8w8"]
+[gd_scene load_steps=2 format=3 uid="uid://cioo0w00fv8w8"]
+
+[ext_resource type="PackedScene" uid="uid://tvg62uo3dxny" path="res://modules/playground/playground.tscn" id="1_xwha2"]
 
 [node name="Root" type="Node"]
 
-[node name="playground" type="Node" parent="."]
+[node name="playground" parent="." instance=ExtResource("1_xwha2")]
